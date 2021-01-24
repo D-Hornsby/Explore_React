@@ -1,3 +1,16 @@
+
+I have been going threw https://scrimba.com/learn/learnreact but before that what really helped me understand the code was 
+ https://scrimba.com/learn/introtoes6   This goes over ES6 
+ covering template literals, destructuring objects and arrays. loops, spread operator arrow function import and export promises and so much we are learning now. 
+ Coding along really helps alot. I didnt have time to do that with all of this but i learned and it stuck better with the parts I did. 
+
+ https://www.youtube.com/watch?v=I2UBjN5ER4s&ab_channel=BrianDesign
+ This youtub is packed with stuff we are doing and also goes over how to set it all up and use the router. This takes a while to get threw esp when looking up every section for full understanding. I am doing a code along to try to get the most out of it and to be able to set my page up using the cards. This will def help with setting up the components and how to link them to make it work. A couple parts I needed to dive in deeper to get why he set it up like he did but he gives a lot of information as you build the code to make it easer to know what to search for. I did find that he builds backwords then what I am use to for instance...when in the process of building the code he will set up things while he is there with that train of thought. For instance the button behavior before the button has been defined and shows that it will give you an error. This did help me tho becouse I tend to get that on accient and this showed me what I was forgeting. Its a lot of information but a good way to see what we have been learning get implamented in something thats waiting on us in the real world. 
+
+ 
+ 
+
+
 I have this error that I am having trouble resolving. 
 
 Failed to compile.
@@ -10,19 +23,15 @@ found that someones issue with this was that
 I toggled line 1 and 2 on NavBar.js seeing if the useState is an issue. 
 
 I have ../ , ./ , and used nothing for linking the working directory. 
-Ive doubel checked that I did it correctly
+Ive double checked that I did it correctly
 
-found that someone had the issue die to this: npm just failed to install the react module for some reason.Try removing package-lock.json, run npm install and then npm start again. Please also share your package.json file.
+found that someone had the issue and did this: npm just failed to install the react module for some reason.Try removing package-lock.json, run npm install and then npm start again. Please also share your package.json file.
 
 i reinstalled npm and ran start again a couple times. i am now on localhost:3002
 
 still :Failed to compile
 
-I changed the function into a class and tryed it another way. did not make a difference so i changed it back to a function. 
-
-
-
-
+I changed the function into a class and tried it another way. did not make a difference so i changed it back to a function. 
 
 
 
@@ -46,7 +55,7 @@ const Example = (props) => {
   // You can use Hooks here!
   return <div />
 }
--------------
+----------------------
 
 function Example(props) {
   // You can use Hooks here!
@@ -69,16 +78,17 @@ function Example() {
 more info on set up
 https://reactjs.org/docs/hooks-state.html
 
------
-after the navBar container  div i tryed control c to stop the app
-and atempted to npm install react-router-dom
-i then added the link to the navbar to get a nev bar icon. code snipit from 
+
+--------------------
+after the navBar container  div i tried control c to stop the app
+and attempted to npm install react-router-dom
+i then added the link to the navbar to get a nev bar icon. code snippet from 
 Font Awesome
 https://fontawesome.com/icons/angellist?style=brands
 this is the one i tried. 
 
 i used Link instead of a tag
-DLH is an atempt to print by the pic
+DLH is an attempt to print by the pic
 I have commented this link out for the moment perhaps that is my issue
 
 --------------------
@@ -87,10 +97,48 @@ for the hamburger menu
 
 now this will work as it is not a linking issue to the fontawsome site
 
-----ok the error is finaly cleared----
+----ok the error is finally cleared----
 it was a syntax error all this time in NavBar
 and a react pic and....the package.json
 oh my gosh. i lost about a day on that one. 
+
+--------------------
+next add the items in the navBar and the signup button
+then layout your button. put it in the components file. 
+add a true false for button style and sizes in the button 
+components file
+button.js and button.css added now
+
+https://getbootstrap.com/docs/4.0/components/buttons/
+what i used in the past to set up these buttons but he did so something different using the --
+https://mdbootstrap.com/docs/react/components/buttons/
+
+notes on -- :
+-- this is a great layout of what -- and __ can do 
+https://cssguidelin.es/#bem-like-naming
+More Layers
+If we were to add another Element—called, let’s say, .person__eye {}—to this .person {} component, we would not need to step through every layer of the DOM. That is to say, the correct notation would be .person__eye {}, and not .person__head__eye {}. Your classes do not reflect the full paper-trail of the DOM.
+
+https://medium.com/fhinkel/the-curious-case-of-double-dashes-b5e7711698f
+
+cute article somewhat informative but not what i was looking for but wanted to keep it, the article on top is the key one. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

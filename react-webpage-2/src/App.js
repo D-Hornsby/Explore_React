@@ -11,21 +11,22 @@ function App () {
 
         <>
          <Router>
-              <NavBar /> 
+              <NavBar/> 
                 <Switch>
                      <Route path='/' exact />
                  </Switch>
              </Router>
-        </>
-
-
-        
+        </>  
        
     );
 }
-//all for the nav icon so far
 
 export default App;
+
+
+//all for the nav icon so far
+
+
 
 //this fragment was for the icon but put the function back to see if  the issue is here
 //i replaced the div with this in my attempt
